@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* .kepala {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color: rgb(91, 141, 211);
+    padding: 10px;
+    align-items: center;
+    width:1220px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    z-index: 4;
+    position: fixed;
+ }  */
+ .kepala {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(91, 141, 211);
+    padding: 20px;
+    align-items: center;
+    width: 1180px;
+    z-index: 4;
+    position: fixed;
+ } 
+ ul {
+    float: right;
+    margin-top: -10px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 10px;
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    align-items: center;
+}
+img {
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+}
+.all {
+    width: 200px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.img1 {
+    width: 120px;
+    height: 140px;
+}
+.img2 {
+    width: 140px;
+    height: 150px;
+}
+.img3 {
+    width: 150px;
+    height: 160px;
+}
+.img4{
+    width: 140px;
+    height: 150px;
+}
+.img5 {
+    width: 180px;
+    height: 200px;
+    margin-top: -20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.pembungkus1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pembungkus2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.kotak1, .kotak2, .kotak3, .kotak4, .kotak5, .kotak6, .kotak7, .kotak8 {
+    width: 230px;
+    height: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    /* box-shadow: 5px 5px 5px 5px black; */
+    display: inline-block;
+    color: rgb(54, 50, 50);
+}
+p {
+    color: rgb(8, 8, 7);
+}
+.rpl {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.ian {
+    margin-left: 510px;
+    color: rgb(91, 141, 211);
+}
+.dil {
+    margin-top: 120px;
+}
+.emby {
+    background-color: rgb(91, 141, 211);
+    height: 90px;
+    margin-top: 250px;
+ }

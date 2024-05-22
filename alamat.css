@@ -1,0 +1,140 @@
+body {
+   background-color: rgb(91, 141, 211);
+}
+.kepala {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(91, 141, 211);
+   padding: 20px;
+   align-items: center;
+   width: 1180px;
+   z-index: 4;
+   position: fixed;
+} 
+ul {
+   float: right;
+   margin-top: -10px;
+}
+ul li {
+   display: inline-block;
+}
+ul li a {
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 2px solid #fff;
+   border-radius: 20px;
+   transition: 0.6s;
+   margin: 10px;
+   font-size: 12px;
+   font-weight: bold;
+}
+ul li a:hover{
+   background-color: #fff;
+   color: #000;
+}
+ul li.active a {
+   background-color: #fff;
+   color: #000;
+}
+/* .kepala {
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+   align-items: center;
+   background-color: rgb(91, 141, 211);
+} */
+.pembungkus {
+   margin-top: -100px;
+}
+li {
+   display: inline-block;
+   margin: 10px;
+   color: white;
+}
+h1 {
+   color: #000;
+   font-size: 30px;
+   /* font-family: cursive; */
+}
+.dini1 {
+   background-color: white;
+   position: relative;
+}
+* {
+   padding: 0;
+   margin: 0;
+}
+h2 {
+   color: rgb(91, 141, 211);
+   text-align: center;
+   margin: 20px;
+   margin-top: 8px;
+}
+.kotak11 {
+   width: 50%;
+   height: 500px;
+   padding: 20px; 
+   box-sizing: border-box;
+   border: 1px solid white;
+   background-color:white;
+   z-index: 1px;
+   border-radius: 10px;
+   float: right;
+   position: absolute;
+} 
+.kotak12 {
+   width: 50%;
+   height: 500px;
+   padding: 20px; 
+   box-sizing: border-box;
+   border: 1px solid white;
+   background-color: white;
+   z-index: 1px;
+   border-radius: 10px;
+   float: right;
+
+} 
+.bl {
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(91, 141, 211);
+   margin: 20px; 
+   margin-top: 5px;
+   padding: 5px 5px 5px 5px;
+   
+}
+h3 {
+   color: rgb(91, 141, 211);
+   font-size: 30px;
+   margin: 20px;
+   margin-top: 75px;
+   padding: 5px 5px 5px 5px;
+}
+.img11 {
+   border-radius: 10px;
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 25px;
+   margin-top: -20px;
+}
+a {
+   color: #fff;
+   text-decoration: none;
+}
+.rpl {
+   display: inline-block;
+   margin: 10px;
+   color: white;
+}
+.emby {
+   background-color: rgb(91, 141, 211);
+   height: 90px;
+   margin-top: 50px;
+}
+.map_main {
+   margin-top: 30px;
+}
